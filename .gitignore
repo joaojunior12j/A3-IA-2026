@@ -1,0 +1,12 @@
+# Ignorar ambientes virtuais locais
+env_A3/
+venv/
+.venv/
+
+# Ignorar arquivos de dados pesados (o grupo baixa direto do Kaggle se precisar)
+*.csv
+*.xlsx
+*.pkl
+
+# Ignorar checkpoints do Jupyter
+.ipynb_checkpoints/
